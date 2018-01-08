@@ -19,6 +19,14 @@ This repository is also adding a [Jenkins pipeline](https://jenkins.io/doc/book/
 
 --TODO--
 
+configure Tools in `Global Tool Configuration` accordingly with `Jenkins` file `tools` section:
+```
+tools {
+  nodejs 'node-8.9.0'
+  gradle 'gradle-3.5.1'
+  jdk 'jdk1.8'
+}
+```
 # Issues
 Find a bug or want to request a new feature?  Please let me know by submitting an issue.
 
